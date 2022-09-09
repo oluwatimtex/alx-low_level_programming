@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-1		9\n";
-	fprintf(stderr, str);
+	fprintf(stderr, "and that piece of art is useful\" - %s, %d\n", "Dora Korpar", 2015-10-19);
 	return (1);
 }
