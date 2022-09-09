@@ -1,12 +1,9 @@
 #include<stdio.h>
-
 /**
- * this is a documentation of the below main function
+ * main - Entry point of the program
  *
- * main - this is the entry point of the program
- * Return - value is 0 cause its a int function
+ * Return: value is 0 cause its a int function
  */
-
 int main(void)
 {
 
