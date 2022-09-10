@@ -1,9 +1,9 @@
-#include <stdlib.h>
-#include <time.h>
+#include<stdlib.h>
+#include<time.h>
 #include<stdio.h>
 
 /*
- * main- Welcome the entry place of all c language 0
+ * main- Welcome to the entry place of all c programming code
  *
  * Return: The return function returns 0
  *
@@ -26,7 +26,7 @@ int main(void)
 	{ 
 		printf("Last digit of %d is and is 0\n", n);
 	}
-	else if (n > 6) && (n < 0)
+	else if (n > 6) && (n =! 0)
 	{
 		printf("Last digit of %d is and is less than 6 and not 0\n", n);
 	}
