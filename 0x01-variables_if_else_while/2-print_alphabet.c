@@ -11,9 +11,10 @@ int main(void)
 	int character;
 
 	for (character = 0; character < 26; character++)
+	{
 		putchar(alphabet[character]);
-
-	putchar("\n");
-
+	}
+	putchar('\n');
 	return (0);
+
 }
