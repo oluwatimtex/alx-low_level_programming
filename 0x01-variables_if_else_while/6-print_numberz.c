@@ -11,8 +11,7 @@ int main(void)
 
 	for (digit = 0; digit < 10; digit++)
 	{
-		int single = digit;
-		putchar(single);
+		putchar('0');
 	}
 	putchar('\n');
 	return (0);
