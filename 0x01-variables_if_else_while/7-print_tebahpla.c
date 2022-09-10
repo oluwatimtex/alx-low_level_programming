@@ -8,10 +8,11 @@
 int main(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	int select;
 
-	for (alphabet = 26; alphabet > 0; alphabet--)
+	for (select = 26; select > 0; select--)
 	{
-		putchar(alphabet);
+		putchar(alphabet[select]);
 	}
 	putchar('\n');
 	return (0);
