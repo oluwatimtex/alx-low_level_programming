@@ -5,12 +5,11 @@
  *
  * Return: main function returns 0
  */
-
 int main(void)
 {
 	int digit;
 
-	for (digit = 0; digit < 10; digit++)
+	for (digit = 28; digit < 38; digit++)
 	{
 		putchar(digit);
 	}
