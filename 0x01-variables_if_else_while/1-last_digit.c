@@ -2,11 +2,10 @@
 #include<time.h>
 #include<stdio.h>
 
-/*
- * main - Welcome to the entry place of all c programming code
+/**
+ * main - Determine if the last digit of n is greater than 5, less than 6 and not 0
  *
  * Return: The return function returns 0
- *
  */
 
 int main(void)
