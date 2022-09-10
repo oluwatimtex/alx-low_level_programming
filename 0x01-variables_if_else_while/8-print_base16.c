@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char hexa[15] = "123456789abcdef";
+	char hexa[16] = "0123456789abcdef";
 	int counter;
 
-	for (counter = 0; counter < 14; counter++)
+	for (counter = 0; counter < 16; counter++)
 	{
 		putchar(hexa[counter]);
 	}
