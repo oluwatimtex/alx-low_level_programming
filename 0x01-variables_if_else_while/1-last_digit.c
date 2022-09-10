@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 /**
- * main - Determine if the last digit of n is greater than 5, less than 6 and not 0
+ * main - prints if last digit of n is greater than 5, less than 6 and not 0
  *
  * Return: The return function returns 0
  */
