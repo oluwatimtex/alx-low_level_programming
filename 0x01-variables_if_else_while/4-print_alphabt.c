@@ -15,7 +15,7 @@ int main(void)
 
 	for (character = 0; character < 26; character++)
 	{
-		if (alphabet[character] != q && alphabet[character] != e)
+		if (alphabet[character] != "q" && alphabet[character] != "e")
 		{
 			putchar(alphabet[character]);
 		}
