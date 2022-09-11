@@ -13,7 +13,7 @@ int main(void)
 	for (counter1 = 0; counter1 < 10; counter1++)
 	{
 		putchar((combo[counter1] % 10) + '0');
-		if (counter1 <= 9)
+		if (counter1 < 9)
 		{
 			putchar(',');
 			putchar(' ');
