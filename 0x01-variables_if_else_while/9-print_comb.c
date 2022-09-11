@@ -15,8 +15,8 @@ int main(void)
 		putchar((combo[counter1] % 10) + '0');
 		putchar(',');
 		putchar(' ');
-		}
 	}
 	putchar('\n');
 	return (0);
+
 }
