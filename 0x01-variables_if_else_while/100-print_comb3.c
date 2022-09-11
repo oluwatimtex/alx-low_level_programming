@@ -19,8 +19,8 @@ int main(void)
 		{
 			if (digit[count2] != digit[count1] && digit[count2] < digit[count1])
 			{
-				putchar(digit[count2]);
-				putchar(digit[count1]);
+				putchar((digit[count2] % 10) + '0');
+				putchar((digit[count1] % 10) + '0');
 				if (digit[count1] == 9 && digit[count2] == 8)
 				{
 					break;
