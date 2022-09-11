@@ -15,10 +15,9 @@ int main(void)
 		{
 			putchar((count1 % 10) + '0');
 			putchar((count2 % 10) + '0');
-
 			if (count1 == 8 && count2 == 9)
 			{
-				countinue;
+				continue;
 			}			
 			putchar(',');
 			putchar(' ');
