@@ -11,7 +11,7 @@ int main(void)
 
 	for (count1 = 0; count1 < 9; count1++)
 	{
-		for (count2 = count1++; count2 < 10; count22++)
+		for (count2 = count1++; count2 < 10; count2++)
 		{
 			putchar((count1 % 10) + '0');
 			putchar((count2 % 10) + '0');
