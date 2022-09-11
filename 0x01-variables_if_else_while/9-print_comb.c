@@ -15,8 +15,10 @@ int main(void)
 		for (counter2 = 0; counter2 < 10; counter2++)
 		{
 			putchar((combo[counter1][counter2] % 10) + '0');
-			putchar(', ');
+			putchar(',');
+			putchar(' ');
 		}
+	}
 	putchar('\n');
 	return (0);
 }
