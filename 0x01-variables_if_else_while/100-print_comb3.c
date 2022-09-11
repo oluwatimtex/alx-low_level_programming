@@ -7,32 +7,26 @@
  */
 int main(void)
 {
-	int digit[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 	int count1, count2;
-	count1 = 0;
-	count2 = 0;
 
-	while (digit[count2] < 10)
+	for (count1 = 0; count1 < 9; count1++)
 	{
-		count1 = 0;
-		while (digit[count1] < 10)
+		for (count2 = count1++; count2 < 10; count22++)
 		{
-			if (digit[count2] != digit[count1] && digit[count2] < digit[count1])
+			putchar((count1 % 10) + '0');
+			putchar((count2 % 10) + '0');
+
+			if (count1 == 8 && count2 == 9)
 			{
-				putchar((digit[count2] % 10) + '0');
-				putchar((digit[count1] % 10) + '0');
-				if (digit[count1] == 9 && digit[count2] == 8)
-				{
-					break;
-				}
-				putchar(',');
-				putchar(' ');
+				break;
 			}
-			count1++;
-		}														}
-		count2++;
+	
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
 
 }
+
