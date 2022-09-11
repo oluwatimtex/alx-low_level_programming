@@ -21,7 +21,7 @@ int main(void)
 			{
 				putchar(digit[count2]);
 				putchar(digit[count1]);
-				if (i == 9 && e == 8)
+				if (digit[count1] == 9 && digit[count2] == 8)
 				{
 					break;
 				}
