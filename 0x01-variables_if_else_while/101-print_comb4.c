@@ -23,17 +23,15 @@ int main(void)
 				putchar((k % 10) + '0');
 
 				if (i == 8 && j == 9 && k == 10)
-				{
-					putchar('\n');
-				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
+					continue;			
+		
+				putchar(',');
+				putchar(' ');
 				}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 
 }
