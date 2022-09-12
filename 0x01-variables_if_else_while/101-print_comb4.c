@@ -12,17 +12,17 @@ int main(void)
 	int k;
 
 
-	for (i = '0'; i <= '8'; i++)
+	for (i = 0; i <= 8; i++)
 	{
-		for (j = i + 1 ; j <= '9'; j++)
+		for (j = i + 1 ; j <= 9; j++)
 		{
-			for (k = j + 2; k < '10'; k++)
+			for (k = j + 1; k < 10; k++)
 			{
 				putchar(i);
 				putchar(j);
 				putchar(k);
 
-				if (i == '8' && j == '9' && k == '10')
+				if (i == 8 && j == 9 && k == 10)
 				{
 					putchar('\n');
 				}
