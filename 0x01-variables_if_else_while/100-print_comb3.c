@@ -7,24 +7,27 @@
  */
 int main(void)
 {
-	int count1, count2;
+	int i;
+	int j;
 
-	for (count1 = 0; count1 < 9; count1++)
+	for (i = '0'; i <= '8'; i++)
 	{
-		for (count2 = count1++; count2 < 10; count2++)
+		for (j = i + 1 ; j <= '9'; j++)
 		{
-			putchar((count1 % 10) + '0');
-			putchar((count2 % 10) + '0');
-			if (count1 == 8 && count2 == 9)
+			putchar(i);
+			putchar(j);
+
+			if (i == '8' && j == '9')
 			{
-				continue;
-			}			
-			putchar(',');
-			putchar(' ');
+				putchar('\n');
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
-	putchar('\n');
 	return (0);
 
 }
-
