@@ -6,9 +6,10 @@
  */
 int main(void)
 {
-	int print= "_putchar";
+	char *print= "_putchar";
 
-	putchar ('print');
+	_putchar (print);
+	_putchar('\n');
 	return (0);
-
+	
 }
