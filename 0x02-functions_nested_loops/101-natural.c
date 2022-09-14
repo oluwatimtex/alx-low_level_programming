@@ -3,7 +3,7 @@
 
 /**
  * main – sum of all the multiples of 3 or 5 below 1024
- *
+ * @void: the parameter of the function is a void type
  * Return: function returns 0
  */
 int main(void)
