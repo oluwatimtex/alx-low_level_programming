@@ -1,15 +1,18 @@
 #include<stdio.h>
+
 /**
- * main - the main function prints _putchar
+ * main - main function returns _putchar
  *
- * Return: the main function returns 0
+ * Return: main function returns 0
  */
 int main(void)
 {
-	int word= '_putchar';
+	char word[] = "_putchar";
 
-	putchar ('word');
+	for (int count = 0; count < 8; count++)
+	{
+		putchar(word[count]);
+	}
 	putchar('\n');
 	return (0);
-	
 }
