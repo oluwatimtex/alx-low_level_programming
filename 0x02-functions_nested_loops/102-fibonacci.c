@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main – first 50 Fibonacci numbers, starting with 1 and 2
+ * main – first 50 Fibonacci numbers
  * @void: main doesnt receive any parameter
  *
  * Return: function returns 0
