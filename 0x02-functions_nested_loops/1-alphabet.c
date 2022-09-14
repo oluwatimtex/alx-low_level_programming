@@ -11,10 +11,13 @@ int main(void)
 	_putchar(print_alphabet());
 	return (0);
 }
-
 void print_alphabet(void)
 {
-	_putchar('abcdefghijklmnopqrstuvwxyz');
-	return;
+	char alphabet;
 
+	for (alphabet = 'a'; alphabet < 'z'; alphabet++)
+	{
+		_putchar(alphabet);
+	}
+	_putchar('\n');
 }
