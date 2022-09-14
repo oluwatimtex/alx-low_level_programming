@@ -4,7 +4,8 @@
 /**
  * add - integer type unction to add 2 digits together
  *
- * @n and @c: the 2 integer type parameters 
+ * @n: the first integer type parameter
+ * @c: the second integer type parameters
  *
  * Return: function returns the total of 2 digits
  */
