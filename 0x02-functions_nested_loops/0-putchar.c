@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char *print= "_putchar";
+	char word[8]= "_putchar";
 
-	putchar (print);
+	putchar (word);
 	putchar('\n');
 	return (0);
 	
