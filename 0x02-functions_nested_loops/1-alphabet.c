@@ -1,5 +1,6 @@
 #include<stdio.h>
-#include "_putchar"
+#include "main.h"
+
 /**
  * main - function print the content of function print_alphabet
  * print_alphabet - prints alphaet in small letters
