@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - function returns alpahbet in lower case 10 times
+ * print_alphabet_x10 - function returns alpahbet in lower case 10 times
  *
  * No return case its a void type
  */
