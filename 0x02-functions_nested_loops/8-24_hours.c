@@ -5,7 +5,7 @@
  * jack_bauer - function prints every minute of the day
  *
  * void: this function returns nothing
- * 
+ *
  * Return: 0
  */
 void jack_bauer(void)
