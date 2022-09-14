@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * jack_bauer - func that prints every minute of the day of Jack Bauer, starti
+ * jack_bauer - function prints every minute of the day
  *
- * @n: print every minute of te day
+ * void: this function returns nothing
  * 
  * Return: 0
  */
