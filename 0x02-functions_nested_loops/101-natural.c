@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main – prints the sum of all the multiples of 3 or 5 below 1024
+ * main – sum of all the multiples of 3 or 5 below 1024
  *
- *Return: function returns 0
+ * Return: function returns 0
  */
 int main(void)
 {
