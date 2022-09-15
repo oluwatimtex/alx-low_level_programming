@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main – finds and prints the sum of the even-valued terms
- * followed by a new line
- * Return: Always 0 (Success)
+ * main - main function prints the sum of even values of fibonacci numbers
+ *
+ * Return: main function returns 0
  */
 int main(void)
 {

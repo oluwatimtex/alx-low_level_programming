@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - main function prints 50 fibonacci number starting from 1 and 2 
- * 
+ * main - main function prints 50 fibonacci number starting from 1 and 2
+ *
  * Return: main function returns 0
  */
 int main(void)
