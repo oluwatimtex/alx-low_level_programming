@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * main – first 50 Fibonacci numbers
- * void: function doesnt recieve a parameter
- *
- * Return: function returns 0
+ * main - main function prints 50 fibonacci number starting from 1 and 2 
+ * 
+ * Return: main function returns 0
  */
 int main(void)
 
