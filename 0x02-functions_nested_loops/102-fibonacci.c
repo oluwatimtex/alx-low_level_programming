@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * main – first 50 Fibonacci numbers
- * @void: main doesnt receive any parameter
+ * int main – first 50 Fibonacci numbers
+ * @i: first parameter
+ * @j: second parameter
+ * @k: third parameter
+ * @next: fourth parameter
  *
  * Return: function returns 0
  */
