@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - prints Buzz each numbers of 3 and 5.
+ * main - prints Fizz and Buzz for each numbers of 3 and 5 respectively.
  * Return: Always 0.
  */
 int main(void)
@@ -27,7 +26,7 @@ int main(void)
 		}
 		else
 		{
-			printf(" %d", n);
+			printf(" %d", num);
 		}
 	}
 	printf("\n");
