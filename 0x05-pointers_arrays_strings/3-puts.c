@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,7 +11,7 @@ void _puts(char *str);
 {
 	int length = 0;
 
-	while (length >=0)
+	while (length >= 0)
 	{
 		if (str[length] == '\0')
 		{
