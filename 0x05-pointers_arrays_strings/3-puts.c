@@ -7,7 +7,7 @@
  *
  * Return: void function returns nothing
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	int length = 0;
 
