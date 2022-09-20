@@ -4,7 +4,7 @@
 /**
  * print_array -  prints n elements of an array
  *
- * @*a: first int parameter
+ * @a: first int parameter
  * @n: second int parameter
  *
  * Return: void function returns nothing
