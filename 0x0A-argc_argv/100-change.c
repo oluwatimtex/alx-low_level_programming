@@ -8,6 +8,7 @@
  * @argv: array that contains argc
  * Return: int function returns 0
  */
+
 int main(int argc, char *argv[])
 {
 	int cents, counter = 0;
@@ -19,6 +20,7 @@ int main(int argc, char *argv[])
 	}
 
 	cents = atoi(argv[1]);
+
 	while (cents > 0)
 	{
 		if (cents >= 25)
