@@ -8,11 +8,11 @@
  *
  * Return: pointer of an array of char
  */
- char *str_concat(char *s1, char *s2)
- {
+char *str_concat(char *s1, char *s2)
+{
 	char *str;
-	
 	unsigned int i, j, k, count;
+
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
@@ -30,7 +30,7 @@
 		free(str);
 		return (NULL);
 	}
-	
+
 	for (k = 0; k < i; k++)
 		str[k] = s1[k];
 
@@ -39,4 +39,4 @@
 		str[k] = s2[j];
 
 	return (str);
- }
+}
