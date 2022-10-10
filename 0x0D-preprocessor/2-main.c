@@ -1,12 +1,12 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
+#include "_putchar.c"
 
 /**
- * main - main function
- * RETURN: no return
+ * main - prints the name of a file
+ * Return: returns 0
  */
-int main()
+int main(void)
 {
 	_putchar("name of compiled file: %s\n", __FILE__);
-}	
+	return (0);
+}
