@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "_putchar.c"
+#include "main.h"
 
 /**
  * main - prints the name of a file
@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	_putchar("name of compiled file: %s\n", __FILE__);
+	_putchar("%s\n", __FILE__);
 	return (0);
 }
